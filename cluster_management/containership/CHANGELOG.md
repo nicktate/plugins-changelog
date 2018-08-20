@@ -2,6 +2,9 @@
 
 ## Versions
 
+- [v3.0.1](#v301)
+  - [Features](#features-for-v301)
+  - [Bug Fixes](#bug-fixes-for-v301)
 - [v3.0.0](#v300)
   - [Features](#features-for-v300)
   - [Bug Fixes](#bug-fixes-for-v300)
@@ -15,6 +18,16 @@
   - [Bug Fixes](#bug-fixes-for-v200)
 - [v1.0.3](#v103)
   - [Features](#features-for-v103)
+
+## v3.0.1
+
+### Features for v3.0.1
+
+* Add DISABLE_CLUSTER_MANAGEMENT_PLUGIN_SYNC option
+
+### Bug Fixes for v3.0.1
+
+* Use Containership node ID for upgrade requests instead of node name
 
 ## v3.0.0
 
