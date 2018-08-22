@@ -9,5 +9,5 @@
 
 ### Features for v0.1.6
 
-* supports Kubernetes >= v1.10.X
-* support loadbalancer http -> https redirect
+* Supports Kubernetes >= v1.10.X
+* Support loadbalancer http -> https redirect
