@@ -23,7 +23,7 @@
 
 ### Features for v3.0.1
 
-* Add DISABLE_CLUSTER_MANAGEMENT_PLUGIN_SYNC option
+* Add `DISABLE_CLUSTER_MANAGEMENT_PLUGIN_SYNC` option
 
 ### Bug Fixes for v3.0.1
 
