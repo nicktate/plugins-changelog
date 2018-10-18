@@ -2,6 +2,9 @@
 
 ## Versions
 
+- [v4.0.1](#v401)
+  - [Features](#features-for-v401)
+  - [Bug Fixes](#bug-fixes-for-v401)
 - [v3.0.1](#v301)
   - [Features](#features-for-v301)
   - [Bug Fixes](#bug-fixes-for-v301)
@@ -18,6 +21,16 @@
   - [Bug Fixes](#bug-fixes-for-v200)
 - [v1.0.3](#v103)
   - [Features](#features-for-v103)
+
+## v4.0.1
+
+### Features for v4.0.1
+
+* Support for Kubernetes v1.10 - v1.12
+
+### Bug Fixes for v4.0.1
+
+* Fix upgrade edge case where `ClusterUpgrade` events may be missed on agent restart
 
 ## v3.0.1
 
