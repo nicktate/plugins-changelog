@@ -11,3 +11,4 @@
 
 * Added support for Azure CSI v0.1
 * Basic support for interfacing with Azure Block Storage
+* Supports Kubernetes v1.10.x - v1.11.x
