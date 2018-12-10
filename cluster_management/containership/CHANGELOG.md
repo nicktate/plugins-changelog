@@ -1,7 +1,10 @@
 # Cluster Management - Containership Changelog
 
 ## Versions
-
+- [v4.2.0](#v420)
+  - [Features](#features-for-v420)
+- [v4.1.0](#v401)
+  - [Features](#features-for-v410)
 - [v4.0.1](#v401)
   - [Features](#features-for-v401)
   - [Bug Fixes](#bug-fixes-for-v401)
@@ -21,6 +24,21 @@
   - [Bug Fixes](#bug-fixes-for-v200)
 - [v1.0.3](#v103)
   - [Features](#features-for-v103)
+
+## v4.2.0
+
+### Features for v4.2.0
+
+* Support for Kubernetes v1.11 - v1.12
+* Update [cluster-manager](https://github.com/containership/cluster-manager) image for cloud-coordinator and cloud-agent to v4.1.0
+   * Add syncing Autoscaling Policies between cloud and cluster
+   * Add syncing Autoscaling Groups between cloud and cluster
+
+## v4.1.0
+
+### Features for v4.1.0
+* Add [infrastructure-controller](https://github.com/containership/infrastructure-controller) v1.0.0
+  * Allows scaling of etcd cluster by removing members on scale down.
 
 ## v4.0.1
 
