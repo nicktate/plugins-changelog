@@ -1,6 +1,8 @@
 # Cluster Management - Containership Changelog
 
 ## Versions
+- [v5.0.0](#v500)
+  - [Features](#features-for-v500)
 - [v4.2.0](#v420)
   - [Features](#features-for-v420)
 - [v4.1.0](#v401)
@@ -24,6 +26,11 @@
   - [Bug Fixes](#bug-fixes-for-v200)
 - [v1.0.3](#v103)
   - [Features](#features-for-v103)
+
+## v5.0.0
+
+### Features for v5.0.0
+* Support for Kubernetes v1.11 - v1.13
 
 ## v4.2.0
 
