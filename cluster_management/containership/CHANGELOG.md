@@ -1,6 +1,8 @@
 # Cluster Management - Containership Changelog
 
 ## Versions
+- [v5.1.0](#v510)
+  - [Features](#features-for-v510)
 - [v5.0.0](#v500)
   - [Features](#features-for-v500)
 - [v4.2.0](#v420)
@@ -26,6 +28,11 @@
   - [Bug Fixes](#bug-fixes-for-v200)
 - [v1.0.3](#v103)
   - [Features](#features-for-v103)
+
+## v5.1.0
+
+### Features for v5.1.0
+* Support for syncing Cluster and Node Pool level containership labels to nodes
 
 ## v5.0.0
 
