@@ -1,2 +1,3 @@
-# plugins-changelog
-Public changelog notes for all containership plugins
+# Containership Plugins Changelog
+
+Changelogs for all Containership plugins

@@ -1,6 +1,14 @@
 # Cluster Management - Containership Changelog
 
 ## Versions
+- [v6.0.1](#v601)
+  - [Features](#features-for-v601)
+- [v5.3.1](#v531)
+  - [Features](#features-for-v531)
+  - [Bug Fixes](#bug-fixes-for-v531)
+- [v5.2.2](#v522)
+  - [Features](#features-for-v522)
+  - [Bug Fixes](#bug-fixes-for-v522)
 - [v5.1.0](#v510)
   - [Features](#features-for-v510)
 - [v5.0.0](#v500)
@@ -29,14 +37,49 @@
 - [v1.0.3](#v103)
   - [Features](#features-for-v103)
 
+## v6.0.1
+
+### Features for v6.0.1
+
+* Support for Kubernetes v1.12 - v1.14
+* Sync SSH users according to new RBAC rules
+
+### Bug Fixes for v6.0.1
+
+* Short-circuit if node labels haven't changed during syncing to avoid API pressure
+
+## v5.3.1
+
+### Features for v5.3.1
+
+* Support for syncing RBAC resources
+
+### Bug Fixes for v5.3.1
+
+* Fix directory reference for plugin delete
+
+## v5.2.2
+
+### Features for v5.2.2
+
+* Support for multiple queued Kubernetes cluster upgrades
+* Remove node cloud status update (no longer required by cloud)
+
+### Bug Fixes for v5.2.2
+
+* Add `Content-Type` header to all cloud requests
+* Compare all fields when checking cloud resource and Kubernetes CR equivalency
+
 ## v5.1.0
 
 ### Features for v5.1.0
-* Support for syncing Cluster and Node Pool level containership labels to nodes
+
+* Support for syncing Cluster and Node Pool level Containership labels to nodes
 
 ## v5.0.0
 
 ### Features for v5.0.0
+
 * Support for Kubernetes v1.11 - v1.13
 
 ## v4.2.0
@@ -51,6 +94,7 @@
 ## v4.1.0
 
 ### Features for v4.1.0
+
 * Add [infrastructure-controller](https://github.com/containership/infrastructure-controller) v1.0.0
   * Allows scaling of etcd cluster by removing members on scale down.
 
@@ -102,7 +146,7 @@
 
 ### Misc for v2.0.1
 
-* Remove extraneous containership service account yaml from manifests
+* Remove extraneous Containership service account yaml from manifests
 
 ## v2.0.0
 
