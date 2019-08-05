@@ -2,10 +2,19 @@
 
 ## Versions
 
+- [v0.3.0+1](#v0301)
+  - [Bug Fixes](#bug-fixes-for-v0301)
 - [v0.3.0](#v030)
   - [Features](#features-for-v030)
 - [v0.2.0](#v020)
   - [Features](#features-for-v020)
+
+## v0.3.0+1
+
+### Bug Fixes for v0.3.0+1
+
+* Update `livenessprobe` image to 1.0.2 to fix high memory usage
+  * See https://github.com/kubernetes-csi/livenessprobe/issues/45 for more details
 
 ## v0.3.0
 
