@@ -1,6 +1,10 @@
 # Cluster Management - Containership Changelog
 
 ## Versions
+- [v7.0.3](#v703)
+  - [Security](#security-for-v703)
+  - [Features](#features-for-v703)
+  - [Bug Fixes](#bug-fixes-for-v703)
 - [v6.0.1](#v601)
   - [Features](#features-for-v601)
 - [v5.3.1](#v531)
@@ -36,6 +40,20 @@
   - [Bug Fixes](#bug-fixes-for-v200)
 - [v1.0.3](#v103)
   - [Features](#features-for-v103)
+
+## v7.0.3
+
+### Security for v7.0.3
+
+* Update go version to 1.12.9a to cover https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-002.md
+
+### Features for v7.0.3
+
+* Support for Kubernetes v1.13 - v1.15
+
+### Bug Fixes for v7.0.3
+
+* Use finalizers for Kubernetes RBAC cleanup instead of relying on the garbage collector
 
 ## v6.0.1
 
